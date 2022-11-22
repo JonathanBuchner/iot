@@ -1,8 +1,7 @@
-#
+# Flashing Meadows F7v2 Microcontroller
 
 ## Directions
-Meadows  
-[Getting Started Deploying Meadows](http://developer.wildernesslabs.co/Meadow/Getting_Started/Deploying_Meadow/)
+Directions from [Getting Started Deploying Meadows](http://developer.wildernesslabs.co/Meadow/Getting_Started/Deploying_Meadow/)
 
 #### Install or update Meadow CLI 
 ```PowerShell
@@ -30,7 +29,7 @@ In-depth explanation [Scott Hanselman - Meadows](https://www.hanselman.com/blog/
 
 1. Run [Zadig](https://zadig.akeo.ie/)
 2. Connect a Meadow device in bootloader mode
-3. In Zadig, list devices and select STM32 BOOTLOADER in the dropdown
+3. In Zadig, select STM32 BOOTLOADER in the dropdown.  You may need to select options -> list all devices to see devices
 4. Replace Driver (After the installation is complete, driver should be WinUSB)
 
 #### Put Device into DFU Bootloader mode
